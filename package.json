@@ -1,0 +1,22 @@
+{
+  "name": "hexer",
+  "main": "./lib/main.js",
+  "version": "0.0.0",
+  "description": "View a file as hex",
+  "keywords": ["hex", "dump"],
+  "repository": "https://github.com/atom/hexer",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "etch": "^0.12.8"
+  },
+  "consumedServices": {
+    "tree-view": {
+      "versions": {
+        "^1.0.0": "consumeTreeView"
+      }
+    }
+  }
+}

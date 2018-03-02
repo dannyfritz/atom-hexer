@@ -1,0 +1,10 @@
+{
+  "context-menu": {
+    ".tree-view .file": [
+      {
+        "label": "Dump Hex",
+        "command": "hexer:dump"
+      }
+    ]
+  }
+}
