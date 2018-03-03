@@ -14,7 +14,8 @@
   },
   "dependencies": {
     "etch": "^0.12.8",
-    "fs-plus": "^3.0.2"
+    "fs-plus": "^3.0.2",
+    "lodash": "^4.17.5"
   },
   "deserializers": {
     "HexerEditor": "deserialize"

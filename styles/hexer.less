@@ -1,8 +1,27 @@
-// The ui-variables file is provided by base themes provided by Atom.
-//
-// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
-// for a full listing of what's available.
 @import "ui-variables";
+@import "syntax-variables";
 
 .hexer {
+  background-color: @syntax-background-color;
+  color: @syntax-text-color;
+  font-family: monospace;
+  font-size: @font-size;
+  width: 100%;
+  overflow: auto;
+  display: flex;
+  cursor: text;
+}
+
+.hexer__offset {
+  padding-right: @component-padding;
+  color: @syntax-gutter-text-color;
+  background-color: @syntax-gutter-background-color;
+}
+
+.hexer__hex > div > *~* {
+  padding-left: @component-padding / 2;
+}
+
+.hexer__ascii {
+  padding-left: @component-padding;
 }
