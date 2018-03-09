@@ -1,8 +1,8 @@
 {
   "name": "hexer",
   "main": "./lib/main.js",
-  "version": "0.0.0",
-  "description": "View a file as hex",
+  "version": "1.0.0",
+  "description": "View a file as a hex dump",
   "keywords": [
     "hex",
     "dump"
@@ -10,7 +10,7 @@
   "repository": "https://github.com/atom/hexer",
   "license": "MIT",
   "engines": {
-    "atom": ">=1.0.0 <2.0.0"
+    "atom": ">=1.24.0 <2.0.0"
   },
   "dependencies": {
     "etch": "^0.12.8",
